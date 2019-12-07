@@ -3,7 +3,6 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  */
-
 #include <string.h>
 #include <device.h>
 #include <sys/atomic.h>
@@ -15,7 +14,6 @@ extern struct device __device_PRE_KERNEL_2_start[];
 extern struct device __device_POST_KERNEL_start[];
 extern struct device __device_APPLICATION_start[];
 extern struct device __device_init_end[];
-
 
 #ifdef CONFIG_DEVICE_POWER_MANAGEMENT
 extern u32_t __device_busy_start[];
